@@ -1,0 +1,123 @@
+# Code Book
+
+This code book summarizes the resulting data fields in `tidy.txt`.
+## Identifiers
+* `subject` - The ID of the test subject
+* `activity` - The type of activity performed when the corresponding measurements were taken
+
+## Measurements
+
+# Code Book
+
+This code book summarizes the resulting data fields in `tidy.txt`.
+
+## Identifiers
+
+* `subject` - The ID of the test subject
+* `activity` - The type of activity performed when the corresponding measurements were taken
+
+## Measurements
+
+* "tBodyAcc-mean()-X"                         
+* "tBodyAcc-std()-Y"                          
+* "tGravityAcc-mean()-Z"                      
+* "tBodyAccJerk-mean()-X"                     
+* "tBodyAccJerk-std()-Y"                      
+* "tBodyGyro-mean()-Z"                        
+* "tBodyGyroJerk-mean()-X"                    
+* "tBodyGyroJerk-std()-Y"                     
+* "tGravityAccMag-mean()"                     
+* "tBodyGyroMag-mean()"                       
+* "fBodyAcc-mean()-X"                         
+* "fBodyAcc-std()-Y"                          
+* "fBodyAcc-meanFreq()-Z"                     
+* "fBodyAccJerk-std()-X"                          
+* "fBodyAccJerk-meanFreq()-Y"                 
+* "fBodyGyro-mean()-Z"                        
+* "fBodyGyro-meanFreq()-X"                    
+* "fBodyAccMag-std()"                             
+* "fBodyBodyAccJerkMag-meanFreq()"                
+* "fBodyBodyGyroJerkMag-mean()"                   
+* "angle(tBodyAccJerkMean),gravityMean)"      
+* "angle(Y,gravityMean)"                      
+* "tBodyAcc-mean()-Y"                
+* "tBodyAcc-std()-Z"                 
+* "tGravityAcc-std()-X"              
+* "tBodyAccJerk-mean()-Y"            
+* "tBodyAccJerk-std()-Z"             
+* "tBodyGyro-std()-X"                
+* "tBodyGyroJerk-mean()-Y"           
+* "tBodyGyroJerk-std()-Z"            
+* "tGravityAccMag-std()"             
+* "tBodyGyroMag-std()"               
+* "fBodyAcc-mean()-Y"                
+* "fBodyAcc-std()-Z"                 
+* "fBodyAccJerk-mean()-X"            
+* "fBodyAccJerk-std()-Y"             
+* "fBodyAccJerk-meanFreq()-Z"        
+* "fBodyGyro-std()-X"                
+* "fBodyGyro-meanFreq()-Y"           
+* "fBodyAccMag-meanFreq()"           
+* "fBodyBodyGyroMag-mean()"          
+* "fBodyBodyGyroJerkMag-std()"       
+* "angle(tBodyGyroMean,gravityMean)" 
+* "angle(Z,gravityMean)"         
+* "tBodyAcc-mean()-Z"                       
+* "tGravityAcc-mean()-X"                
+* "tGravityAcc-std()-Y"                 
+* "tBodyAccJerk-mean()-Z"               
+* "tBodyGyro-mean()-X"                  
+* "tBodyGyro-std()-Y"                   
+* "tBodyGyroJerk-mean()-Z"              
+* "tBodyAccMag-mean()"                  
+* "tBodyAccJerkMag-mean()"              
+* "tBodyGyroJerkMag-mean()"             
+* "fBodyAcc-mean()-Z"                   
+* "fBodyAcc-meanFreq()-X"               
+* "fBodyAccJerk-mean()-Y"               
+* "fBodyAccJerk-std()-Z"                
+* "fBodyGyro-mean()-X"                  
+* "fBodyGyro-std()-Y"                   
+* "fBodyGyro-meanFreq()-Z"              
+* "fBodyBodyAccJerkMag-mean()"          
+* "fBodyBodyGyroMag-std()"              
+* "fBodyBodyGyroJerkMag-meanFreq()"     
+* "angle(tBodyGyroJerkMean,gravityMean)"
+* "Activity"                            
+* "tBodyAcc-std()-X"         
+* "tGravityAcc-mean()-Y"     
+* "tGravityAcc-std()-Z"      
+* "tBodyAccJerk-std()-X"     
+* "tBodyGyro-mean()-Y"       
+* "tBodyGyro-std()-Z"        
+* "tBodyGyroJerk-std()-X"    
+* "tBodyAccMag-std()"        
+* "tBodyAccJerkMag-std()"    
+* "tBodyGyroJerkMag-std()"   
+* "fBodyAcc-std()-X"         
+* "fBodyAcc-meanFreq()-Y"    
+* "fBodyAccJerk-mean()-Z"    
+* "fBodyAccJerk-meanFreq()-X"       
+* "fBodyGyro-mean()-Y"       
+* "fBodyGyro-std()-Z"        
+* "fBodyAccMag-mean()"       
+* "fBodyBodyAccJerkMag-std()"       
+* "fBodyBodyGyroMag-meanFreq()"     
+* "angle(tBodyAccMean,gravity)"     
+* "angle(X,gravityMean)"     
+* "Subject"         
+
+## Activity Labels
+
+value of "Acc"    
+value of "Gyro"   
+value of "BodyB"  
+value of "Mag"    
+value of "^t"     
+value of "^f"     
+value of "tBody"  
+value of "-mean"  
+value of "-std()" 
+value of "-freq()"
+value of "angle"  
+value of "gravity"
